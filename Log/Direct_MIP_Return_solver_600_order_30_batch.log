@@ -1,0 +1,85 @@
+
+Gurobi 9.1.1 (win64) logging started Sun Mar 13 19:27:11 2022
+
+Changed value of parameter LogFile to ./Log/Direct_MIP_Return_solver_600_order_30_batch.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 108510 rows, 80880 columns and 290910 nonzeros
+Model fingerprint: 0x79dab757
+Variable types: 1440 continuous, 79440 integer (79440 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+01]
+  Objective range  [4e-01, 1e+00]
+  Bounds range     [1e+00, 4e+01]
+  RHS range        [1e+00, 2e+01]
+Found heuristic solution: objective 8465.6000000
+Presolve removed 52050 rows and 49710 columns
+Presolve time: 0.81s
+Presolved: 56460 rows, 31170 columns, 243450 nonzeros
+Variable types: 0 continuous, 31170 integer (29790 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   13888    4.9644880e+03   0.000000e+00   7.091337e+05      5s
+   18488    4.2024096e+03   0.000000e+00   4.564257e+05     10s
+   21878    3.7558578e+03   0.000000e+00   1.237468e+06     15s
+   24788    3.4786540e+03   0.000000e+00   1.297089e+06     20s
+   27668    3.2530274e+03   0.000000e+00   9.040756e+05     25s
+   30298    3.0924170e+03   0.000000e+00   2.762942e+06     30s
+   32948    2.9272519e+03   0.000000e+00   1.133933e+06     35s
+   35538    2.8180852e+03   0.000000e+00   1.362381e+06     40s
+   38038    2.7249428e+03   0.000000e+00   2.624322e+06     45s
+   40458    2.6531390e+03   0.000000e+00   1.147184e+06     50s
+   42888    2.5805927e+03   0.000000e+00   1.845651e+06     55s
+   45238    2.5189753e+03   0.000000e+00   2.611792e+05     60s
+   47668    2.4542961e+03   0.000000e+00   5.374213e+05     65s
+   49868    2.4041943e+03   0.000000e+00   3.013217e+06     70s
+   51668    2.3253191e+03   0.000000e+00   9.819901e+05     75s
+   53328    2.2734044e+03   0.000000e+00   1.650950e+06     80s
+   54998    2.2288290e+03   0.000000e+00   6.415696e+05     85s
+   56688    2.1843950e+03   0.000000e+00   9.101866e+05     90s
+   58218    2.1479981e+03   0.000000e+00   5.706904e+05     95s
+   59668    2.1154945e+03   0.000000e+00   1.905994e+06    100s
+   61108    2.0891573e+03   0.000000e+00   9.282759e+06    105s
+   62628    2.0643332e+03   0.000000e+00   3.363868e+05    110s
+   64068    2.0430832e+03   0.000000e+00   2.982172e+05    115s
+   65548    2.0225444e+03   0.000000e+00   9.247464e+05    120s
+   67018    2.0042175e+03   0.000000e+00   9.430843e+05    125s
+   68588    1.9898769e+03   0.000000e+00   7.766588e+05    130s
+   70028    1.9777212e+03   0.000000e+00   5.920774e+05    135s
+   71318    1.9668773e+03   0.000000e+00   5.894913e+05    140s
+   72598    1.9564412e+03   0.000000e+00   3.829054e+05    145s
+   73958    1.9472319e+03   0.000000e+00   6.965201e+05    150s
+   74998    1.9422035e+03   0.000000e+00   8.202763e+04    155s
+   76028    1.9370577e+03   0.000000e+00   1.024445e+06    160s
+   77378    1.9308917e+03   0.000000e+00   5.511147e+04    166s
+   78588    1.9282446e+03   0.000000e+00   4.841613e+04    170s
+   79818    1.9256199e+03   0.000000e+00   1.058224e+06    175s
+   81028    1.9239201e+03   0.000000e+00   5.879481e+04    180s
+   82318    1.9227824e+03   0.000000e+00   9.937341e+03    185s
+   82952    1.9224000e+03   0.000000e+00   0.000000e+00    187s
+   82952    1.9224000e+03   0.000000e+00   0.000000e+00    187s
+Concurrent spin time: 9.12s
+
+Solved with primal simplex
+
+Root relaxation: objective 1.922400e+03, 82952 iterations, 195.62 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1922.40000    0 24458 8465.60000 1922.40000  77.3%     -  300s
+
+Explored 0 nodes (164453 simplex iterations) in 300.01 seconds
+Thread count was 12 (of 12 available processors)
+
+Solution count 1: 8465.6 
+
+Time limit reached
+Best objective 8.465600000000e+03, best bound 1.922400000000e+03, gap 77.2916%

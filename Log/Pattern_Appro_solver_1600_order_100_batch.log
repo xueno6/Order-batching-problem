@@ -1,0 +1,55 @@
+
+Gurobi 9.1.1 (win64) logging started Sun Mar 13 11:01:36 2022
+
+Changed value of parameter LogFile to ./Log/Pattern_Appro_solver_1600_order_100_batch.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 6282 rows, 143000 columns and 1054700 nonzeros
+Model fingerprint: 0x93d4463b
+Variable types: 0 continuous, 143000 integer (131800 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 2e+01]
+Found heuristic solution: objective 38339.000000
+Presolve removed 574 rows and 8513 columns
+Presolve time: 1.33s
+Presolved: 5708 rows, 134487 columns, 837927 nonzeros
+Variable types: 0 continuous, 134487 integer (124396 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   17926    7.7853890e+03   8.553835e+04   0.000000e+00      5s
+   31783    8.3852965e+03   5.657679e+05   0.000000e+00     10s
+   43505    8.7687760e+03   6.672586e+04   0.000000e+00     15s
+   54555    9.1267933e+03   1.019282e+05   0.000000e+00     20s
+   66355    9.5448008e+03   8.386916e+03   0.000000e+00     25s
+   75958    9.8852667e+03   0.000000e+00   0.000000e+00     28s
+
+Root relaxation: objective 9.885267e+03, 75958 iterations, 26.59 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9885.26667    0 1823 38339.0000 9885.26667  74.2%     -   30s
+H    0     0                    27556.000000 9885.26667  64.1%     -   30s
+H    0     0                    27146.000000 9885.26667  63.6%     -   30s
+H    0     0                    25516.000000 9885.26667  61.3%     -   56s
+H    0     0                    25437.000000 9885.26667  61.1%     -   61s
+
+Cutting planes:
+  Cover: 796
+  Implied bound: 29
+  MIR: 101
+  Flow cover: 360
+
+Explored 1 nodes (78306 simplex iterations) in 61.49 seconds
+Thread count was 12 (of 12 available processors)
+
+Solution count 5: 25437 25516 27146 ... 38339
+
+Time limit reached
+Best objective 2.543700000000e+04, best bound 9.889000000000e+03, gap 61.1236%
