@@ -1,0 +1,363 @@
+
+Gurobi 9.5.1 (win64) logging started Mon Apr 25 17:20:14 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3520 rows, 27648 columns and 119168 nonzeros
+Model fingerprint: 0xe484f543
+Variable types: 0 continuous, 27648 integer (23424 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 275 rows and 2137 columns
+Presolve time: 0.14s
+Presolved: 3245 rows, 25511 columns, 106834 nonzeros
+Variable types: 0 continuous, 25511 integer (21448 binary)
+
+Root relaxation: infeasible, 4251 iterations, 0.15 seconds (0.12 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (4251 simplex iterations) in 0.38 seconds (0.35 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Mon Apr 25 17:31:41 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3511 rows, 27072 columns and 116608 nonzeros
+Model fingerprint: 0xd55f14b3
+Variable types: 0 continuous, 27072 integer (22464 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 3e+01]
+  RHS range        [1e+00, 3e+01]
+Presolve removed 292 rows and 2154 columns
+Presolve time: 0.13s
+Presolved: 3219 rows, 24918 columns, 102936 nonzeros
+Variable types: 0 continuous, 24918 integer (20723 binary)
+
+Root relaxation: infeasible, 2420 iterations, 0.07 seconds (0.05 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (2420 simplex iterations) in 0.30 seconds (0.27 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Mon Apr 25 18:35:03 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3526 rows, 28032 columns and 120000 nonzeros
+Model fingerprint: 0xa3562fd0
+Variable types: 0 continuous, 28032 integer (23808 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 3e+01]
+  RHS range        [1e+00, 3e+01]
+Presolve removed 282 rows and 2144 columns
+Presolve time: 0.14s
+Presolved: 3244 rows, 25888 columns, 107199 nonzeros
+Variable types: 0 continuous, 25888 integer (21762 binary)
+
+Root relaxation: infeasible, 2013 iterations, 0.06 seconds (0.04 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (2013 simplex iterations) in 0.28 seconds (0.27 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Mon Apr 25 18:36:54 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3649 rows, 35904 columns and 197056 nonzeros
+Model fingerprint: 0xb1eff87d
+Variable types: 0 continuous, 35904 integer (31872 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 347 rows and 2457 columns
+Presolve time: 0.21s
+Presolved: 3302 rows, 33447 columns, 173895 nonzeros
+Variable types: 0 continuous, 33447 integer (29886 binary)
+
+Root relaxation: infeasible, 4733 iterations, 0.40 seconds (0.42 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (4733 simplex iterations) in 0.71 seconds (0.79 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Mon Apr 25 18:39:05 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3724 rows, 40704 columns and 263872 nonzeros
+Model fingerprint: 0xb50642bc
+Variable types: 0 continuous, 40704 integer (37376 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 426 rows and 3156 columns
+Presolve time: 0.32s
+Presolved: 3298 rows, 37548 columns, 225463 nonzeros
+Variable types: 0 continuous, 37548 integer (34619 binary)
+
+Root relaxation: infeasible, 4531 iterations, 0.50 seconds (0.55 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (4531 simplex iterations) in 0.93 seconds (1.04 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Tue Apr 26 19:23:03 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3601 rows, 32832 columns and 162368 nonzeros
+Model fingerprint: 0xe87ea5c1
+Variable types: 0 continuous, 32832 integer (28672 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 3e+01]
+  RHS range        [1e+00, 3e+01]
+Presolve removed 290 rows and 2028 columns
+Presolve time: 0.19s
+Presolved: 3311 rows, 30804 columns, 147383 nonzeros
+Variable types: 0 continuous, 30804 integer (27120 binary)
+
+Root relaxation: infeasible, 3858 iterations, 0.20 seconds (0.15 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (3858 simplex iterations) in 0.49 seconds (0.46 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Tue Apr 26 19:23:07 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3685 rows, 38208 columns and 232640 nonzeros
+Model fingerprint: 0x8eb15b7d
+Variable types: 0 continuous, 38208 integer (34880 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 413 rows and 3265 columns
+Presolve time: 0.24s
+Presolved: 3272 rows, 34943 columns, 197560 nonzeros
+Variable types: 0 continuous, 34943 integer (31822 binary)
+
+Root relaxation: infeasible, 10893 iterations, 1.39 seconds (1.69 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    1s
+
+Explored 1 nodes (10893 simplex iterations) in 1.73 seconds (2.11 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Tue Apr 26 19:23:14 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3752 rows, 42496 columns and 294016 nonzeros
+Model fingerprint: 0x06267c30
+Variable types: 0 continuous, 42496 integer (39552 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 502 rows and 3913 columns
+Presolve time: 0.31s
+Presolved: 3250 rows, 38583 columns, 241867 nonzeros
+Variable types: 0 continuous, 38583 integer (35964 binary)
+
+Root relaxation: infeasible, 13548 iterations, 2.02 seconds (2.46 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    2s
+
+Explored 1 nodes (13548 simplex iterations) in 2.46 seconds (2.99 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Tue Apr 26 20:24:44 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3597 rows, 32576 columns and 160960 nonzeros
+Model fingerprint: 0x03ffe871
+Variable types: 0 continuous, 32576 integer (28544 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 323 rows and 2495 columns
+Presolve time: 0.19s
+Presolved: 3274 rows, 30081 columns, 141779 nonzeros
+Variable types: 0 continuous, 30081 integer (26394 binary)
+
+Root relaxation: infeasible, 4390 iterations, 0.35 seconds (0.31 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (4390 simplex iterations) in 0.63 seconds (0.61 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Tue Apr 26 20:26:22 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3709 rows, 39744 columns and 236288 nonzeros
+Model fingerprint: 0xd87c2165
+Variable types: 0 continuous, 39744 integer (36992 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 377 rows and 3106 columns
+Presolve time: 0.25s
+Presolved: 3332 rows, 36638 columns, 206267 nonzeros
+Variable types: 0 continuous, 36638 integer (34474 binary)
+
+Root relaxation: infeasible, 2165 iterations, 0.10 seconds (0.08 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (2165 simplex iterations) in 0.46 seconds (0.51 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Tue Apr 26 20:28:08 2022
+
+Set parameter LogFile to value "./Log/Pattern_Appro_solver_720_order_64_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3734 rows, 41344 columns and 290560 nonzeros
+Model fingerprint: 0xbcec8ca5
+Variable types: 0 continuous, 41344 integer (38784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 439 rows and 3354 columns
+Presolve time: 0.34s
+Presolved: 3295 rows, 37990 columns, 247093 nonzeros
+Variable types: 0 continuous, 37990 integer (35700 binary)
+
+Root relaxation: infeasible, 4344 iterations, 0.42 seconds (0.44 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (4344 simplex iterations) in 0.87 seconds (0.97 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -

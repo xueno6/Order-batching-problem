@@ -1,0 +1,347 @@
+
+Gurobi 9.5.1 (win64) logging started Tue May 24 13:25:14 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Return_solver_1080_order_72_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 370944 rows, 229824 columns and 1343736 nonzeros
+Model fingerprint: 0xa969d953
+Variable types: 3456 continuous, 226368 integer (226368 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+01]
+  Objective range  [4e-01, 1e+00]
+  Bounds range     [1e+00, 4e+01]
+  RHS range        [1e+00, 2e+01]
+Found heuristic solution: objective 18836.400000
+Presolve removed 92520 rows and 82512 columns
+Presolve time: 3.80s
+Presolved: 278424 rows, 147312 columns, 1223784 nonzeros
+Variable types: 0 continuous, 147312 integer (144000 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing first log only...
+
+Root relaxation presolve removed 63216 rows and 63072 columns
+Root relaxation presolved: 215208 rows, 84240 columns, 990432 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.3412000e+03   0.000000e+00   0.000000e+00      5s
+
+Use crossover to convert LP symmetric solution to basic solution...
+
+Root crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 6s
+
+   76609 PPushes remaining with PInf 0.0000000e+00                 6s
+   60901 PPushes remaining with PInf 0.0000000e+00                12s
+   53674 PPushes remaining with PInf 0.0000000e+00                16s
+   41387 PPushes remaining with PInf 0.0000000e+00                25s
+   39018 PPushes remaining with PInf 0.0000000e+00                25s
+   28500 PPushes remaining with PInf 0.0000000e+00                31s
+   17882 PPushes remaining with PInf 0.0000000e+00                35s
+    1066 PPushes remaining with PInf 0.0000000e+00                40s
+       0 PPushes remaining with PInf 0.0000000e+00                45s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.7417441e-10     45s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   76612    3.3412000e+03   0.000000e+00   0.000000e+00     45s
+   76612    3.3412000e+03   0.000000e+00   0.000000e+00     46s
+Concurrent spin time: 0.05s
+
+Solved with primal simplex (primal model)
+
+Root relaxation: objective 3.341200e+03, 76612 iterations, 41.42 seconds (25.17 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3341.20000    0 122966 18836.4000 3341.20000  82.3%     -   99s
+H    0     0                    16288.400000 3341.20000  79.5%     -  100s
+     0     0          -    0      16288.4000 3341.20000  79.5%     - 1000s
+
+Cutting planes:
+  Cover: 2776
+  MIR: 12
+  Zero half: 139
+  RLT: 701
+  Relax-and-lift: 1811
+
+Explored 1 nodes (138261 simplex iterations) in 1000.05 seconds (2552.72 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 16288.4 18836.4 
+
+Time limit reached
+Best objective 1.628840000000e+04, best bound 3.341200000000e+03, gap 79.4872%
+
+Gurobi 9.5.1 (win64) logging started Tue May 24 13:42:13 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Return_solver_1080_order_72_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 370944 rows, 229824 columns and 1342152 nonzeros
+Model fingerprint: 0x594cfd76
+Variable types: 3456 continuous, 226368 integer (226368 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [4e-01, 1e+00]
+  Bounds range     [1e+00, 4e+01]
+  RHS range        [1e+00, 2e+01]
+Found heuristic solution: objective 18014.800000
+Presolve removed 92304 rows and 81288 columns
+Presolve time: 3.81s
+Presolved: 278640 rows, 148536 columns, 1221768 nonzeros
+Variable types: 0 continuous, 148536 integer (145224 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing first log only...
+
+Root relaxation presolve removed 64152 rows and 64152 columns
+Root relaxation presolved: 214488 rows, 84384 columns, 988992 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.3448000e+03   0.000000e+00   0.000000e+00      5s
+
+Use crossover to convert LP symmetric solution to basic solution...
+
+Root crossover log...
+
+       3 DPushes remaining with DInf 0.0000000e+00                 6s
+       0 DPushes remaining with DInf 0.0000000e+00                 6s
+
+   76467 PPushes remaining with PInf 0.0000000e+00                 6s
+   67954 PPushes remaining with PInf 0.0000000e+00                11s
+   58952 PPushes remaining with PInf 0.0000000e+00                17s
+   52582 PPushes remaining with PInf 0.0000000e+00                22s
+   46842 PPushes remaining with PInf 0.0000000e+00                26s
+   34535 PPushes remaining with PInf 0.0000000e+00                30s
+   25056 PPushes remaining with PInf 0.0000000e+00                35s
+   13605 PPushes remaining with PInf 0.0000000e+00                40s
+    2226 PPushes remaining with PInf 0.0000000e+00                45s
+     465 PPushes remaining with PInf 0.0000000e+00                50s
+       0 PPushes remaining with PInf 0.0000000e+00                52s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.0913571e-10     52s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   76472    3.3448000e+03   0.000000e+00   0.000000e+00     52s
+   76472    3.3448000e+03   0.000000e+00   0.000000e+00     52s
+Concurrent spin time: 0.26s
+
+Solved with primal simplex (primal model)
+
+Root relaxation: objective 3.344800e+03, 76472 iterations, 48.13 seconds (27.20 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3344.80000    0 123693 18014.8000 3344.80000  81.4%     -  107s
+H    0     0                    16349.200000 3344.80000  79.5%     -  108s
+     0     0          -    0      16349.2000 3344.80000  79.5%     - 1000s
+
+Cutting planes:
+  Cover: 2023
+  MIR: 3
+  Zero half: 214
+  RLT: 337
+  Relax-and-lift: 779
+
+Explored 1 nodes (135484 simplex iterations) in 1000.05 seconds (2622.44 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 16349.2 18014.8 
+
+Time limit reached
+Best objective 1.634920000000e+04, best bound 3.344800000000e+03, gap 79.5415%
+
+Gurobi 9.5.1 (win64) logging started Tue May 24 13:59:12 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Return_solver_1080_order_72_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 370944 rows, 229824 columns and 1342800 nonzeros
+Model fingerprint: 0x5ef27e57
+Variable types: 3456 continuous, 226368 integer (226368 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+01]
+  Objective range  [4e-01, 1e+00]
+  Bounds range     [1e+00, 4e+01]
+  RHS range        [1e+00, 2e+01]
+Found heuristic solution: objective 18363.200000
+Presolve removed 89712 rows and 79848 columns
+Presolve time: 4.20s
+Presolved: 281232 rows, 149976 columns, 1230912 nonzeros
+Variable types: 0 continuous, 149976 integer (146664 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing first log only...
+
+Root relaxation presolve removed 65592 rows and 65592 columns
+Root relaxation presolved: 215640 rows, 84384 columns, 993600 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.3404000e+03   0.000000e+00   0.000000e+00      6s
+
+Use crossover to convert LP symmetric solution to basic solution...
+
+Root crossover log...
+
+       4 DPushes remaining with DInf 0.0000000e+00                 6s
+       0 DPushes remaining with DInf 0.0000000e+00                 6s
+
+   76396 PPushes remaining with PInf 0.0000000e+00                 6s
+   67300 PPushes remaining with PInf 0.0000000e+00                11s
+   57382 PPushes remaining with PInf 0.0000000e+00                16s
+   51411 PPushes remaining with PInf 0.0000000e+00                21s
+   45195 PPushes remaining with PInf 0.0000000e+00                25s
+   34522 PPushes remaining with PInf 0.0000000e+00                31s
+   28747 PPushes remaining with PInf 0.0000000e+00                36s
+   15147 PPushes remaining with PInf 0.0000000e+00                41s
+    2433 PPushes remaining with PInf 0.0000000e+00                45s
+     663 PPushes remaining with PInf 5.2279388e-03                51s
+       0 PPushes remaining with PInf 5.2189323e-03                53s
+
+  Push phase complete: Pinf 5.2189323e-03, Dinf 1.5077960e-10     54s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   76402    3.3404000e+03   5.218932e-03   0.000000e+00     54s
+   76592    3.3404000e+03   4.773310e+01   0.000000e+00     58s
+   77034    3.3404000e+03   1.062653e+01   0.000000e+00     65s
+   77504    3.3404000e+03   2.046488e+03   0.000000e+00     71s
+   77976    3.3404000e+03   5.864707e+03   0.000000e+00     77s
+   78228    3.3404000e+03   1.647526e+04   0.000000e+00     81s
+   78732    3.3404000e+03   3.068040e+04   0.000000e+00     88s
+Concurrent spin time: 25.53s
+
+Solved with dual simplex (dual model)
+
+Root relaxation: objective 3.340400e+03, 57739 iterations, 84.69 seconds (106.38 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3340.40000    0 123496 18363.2000 3340.40000  81.8%     -  275s
+H    0     0                    15907.600000 3340.40000  79.0%     -  276s
+     0     0          -    0      15907.6000 3340.40000  79.0%     - 1000s
+
+Cutting planes:
+  Cover: 4383
+  Clique: 1
+  MIR: 8
+  Zero half: 72
+  RLT: 1122
+  Relax-and-lift: 2833
+
+Explored 1 nodes (113248 simplex iterations) in 1000.09 seconds (2921.68 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 15907.6 18363.2 
+
+Time limit reached
+Best objective 1.590760000000e+04, best bound 3.340400000000e+03, gap 79.0012%
+
+Gurobi 9.5.1 (win64) logging started Tue May 24 14:16:12 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Return_solver_1080_order_72_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 370944 rows, 229824 columns and 1343304 nonzeros
+Model fingerprint: 0xf6521173
+Variable types: 3456 continuous, 226368 integer (226368 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [4e-01, 1e+00]
+  Bounds range     [1e+00, 4e+01]
+  RHS range        [1e+00, 2e+01]
+Found heuristic solution: objective 18352.800000
+Presolve removed 90792 rows and 80712 columns
+Presolve time: 4.20s
+Presolved: 280152 rows, 149112 columns, 1227384 nonzeros
+Variable types: 0 continuous, 149112 integer (145800 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing first log only...
+
+Root relaxation presolve removed 64872 rows and 64800 columns
+Root relaxation presolved: 215280 rows, 84312 columns, 990864 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.3420000e+03   0.000000e+00   0.000000e+00      6s
+
+Use crossover to convert LP symmetric solution to basic solution...
+
+Root crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 6s
+
+   76609 PPushes remaining with PInf 0.0000000e+00                 6s
+   66619 PPushes remaining with PInf 0.0000000e+00                12s
+   57268 PPushes remaining with PInf 0.0000000e+00                16s
+   51010 PPushes remaining with PInf 0.0000000e+00                23s
+   46757 PPushes remaining with PInf 0.0000000e+00                25s
+   34355 PPushes remaining with PInf 0.0000000e+00                34s
+   29253 PPushes remaining with PInf 0.0000000e+00                37s
+   20777 PPushes remaining with PInf 0.0000000e+00                40s
+    9726 PPushes remaining with PInf 0.0000000e+00                45s
+    1903 PPushes remaining with PInf 0.0000000e+00                50s
+      48 PPushes remaining with PInf 0.0000000e+00                56s
+       0 PPushes remaining with PInf 0.0000000e+00                57s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 3.1964800e-10     57s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   76612    3.3420000e+03   0.000000e+00   0.000000e+00     57s
+   76612    3.3420000e+03   0.000000e+00   0.000000e+00     57s
+Concurrent spin time: 0.13s
+
+Solved with primal simplex (primal model)
+
+Root relaxation: objective 3.342000e+03, 76612 iterations, 52.58 seconds (26.78 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3342.00000    0 122820 18352.8000 3342.00000  81.8%     -  106s
+H    0     0                    16528.800000 3342.00000  79.8%     -  117s
+H    0     0                    15561.200000 3342.00000  78.5%     -  117s
+     0     0          -    0      15561.2000 3342.00000  78.5%     - 1000s
+
+Cutting planes:
+  Cover: 1858
+  Zero half: 219
+  RLT: 216
+  Relax-and-lift: 280
+
+Explored 1 nodes (135199 simplex iterations) in 1000.04 seconds (2774.47 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 15561.2 16528.8 18352.8 
+
+Time limit reached
+Best objective 1.556120000000e+04, best bound 3.342000000000e+03, gap 78.5235%

@@ -1,0 +1,258 @@
+
+Gurobi 9.5.1 (win64) logging started Fri Apr 22 13:15:41 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Sshape_solver_12_order_1_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 207 rows, 206 columns and 313 nonzeros
+Model fingerprint: 0xdab14db1
+Model has 47 quadratic constraints
+Variable types: 0 continuous, 206 integer (158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+01]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [4e-01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 58 rows and 75 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Fri Apr 22 13:17:40 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Sshape_solver_12_order_1_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 207 rows, 206 columns and 313 nonzeros
+Model fingerprint: 0xec07101a
+Model has 47 quadratic constraints
+Variable types: 0 continuous, 206 integer (158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+01]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [4e-01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 59 rows and 76 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 207 rows, 206 columns and 313 nonzeros
+Model fingerprint: 0xec07101a
+Model has 47 quadratic constraints
+Variable types: 0 continuous, 206 integer (158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+01]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [4e-01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 59 rows and 76 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Fri Apr 22 13:18:21 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Sshape_solver_12_order_1_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 207 rows, 206 columns and 319 nonzeros
+Model fingerprint: 0xa21d3041
+Model has 47 quadratic constraints
+Variable types: 0 continuous, 206 integer (158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+01]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [4e-01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 54 rows and 74 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Fri Apr 22 13:18:31 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Sshape_solver_12_order_1_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 207 rows, 206 columns and 320 nonzeros
+Model fingerprint: 0xb48e41b2
+Variable types: 0 continuous, 206 integer (158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+01]
+  Objective range  [4e-01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 53 rows and 73 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Fri Apr 22 13:18:44 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Sshape_solver_12_order_1_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 159 rows, 206 columns and 217 nonzeros
+Model fingerprint: 0x418846a1
+Variable types: 0 continuous, 206 integer (158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [4e-01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 177.8000000
+Presolve removed 159 rows and 206 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: 177.8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.778000000000e+02, best bound 1.778000000000e+02, gap 0.0000%
+
+Gurobi 9.5.1 (win64) logging started Fri Apr 22 13:19:09 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Sshape_solver_12_order_1_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 159 rows, 206 columns and 216 nonzeros
+Model fingerprint: 0x0c53902f
+Variable types: 0 continuous, 206 integer (158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+00]
+  Objective range  [4e-01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 162.8000000
+Presolve removed 159 rows and 206 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: 162.8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.628000000000e+02, best bound 1.628000000000e+02, gap 0.0000%
+
+Gurobi 9.5.1 (win64) logging started Fri Apr 22 13:19:16 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Sshape_solver_12_order_1_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 207 rows, 206 columns and 315 nonzeros
+Model fingerprint: 0x1adbabcd
+Variable types: 0 continuous, 206 integer (158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+01]
+  Objective range  [4e-01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 58 rows and 76 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 9.5.1 (win64) logging started Fri Apr 22 13:20:39 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Sshape_solver_12_order_1_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 207 rows, 206 columns and 315 nonzeros
+Model fingerprint: 0x16fee054
+Variable types: 0 continuous, 206 integer (158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+01]
+  Objective range  [4e-01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 177.8000000
+Presolve removed 207 rows and 206 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: 177.8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.778000000000e+02, best bound 1.778000000000e+02, gap 0.0000%
+
+Gurobi 9.5.1 (win64) logging started Fri Apr 22 13:21:41 2022
+
+Set parameter LogFile to value "./Log/Direct_MIP_Sshape_solver_12_order_1_batch.log"
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 207 rows, 206 columns and 312 nonzeros
+Model fingerprint: 0xd8d9b66a
+Model has 47 quadratic constraints
+Variable types: 0 continuous, 206 integer (158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+01]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [4e-01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 207 rows and 206 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: 362.2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.622000000000e+02, best bound 3.622000000000e+02, gap 0.0000%
